@@ -48,15 +48,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="../index.php">Logo</a>
+               <a class="navbar-brand" href="index.php" style="color:white;">
+				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
                 <li><a href="revision.php">Revision</a></li>
-                <li><a href="normativa.php">Normativa</a></li>
+               <!-- <li><a href="normativa.php">Normativa</a></li>-->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="requisitos.php">Transporte de carga</a></li>
                     <li><a href="requisitos.phpphp">Transporte de pasajeros</a></li>
@@ -92,24 +94,24 @@
 					<!-- Formulario de contacto -->
 						 <h2 class="featurette-heading text-center" style="margin-bottom: 50px;">Formulario de  contacto</h2>
 
-						  <form role="form" method="post" id="formu" name="formu">
+						  <form role="form" id="formu" name="formu" method="post">
 										  
 							  <div class="form-group">
 								   <label for="email">Email:</label>
-								   <input type="email" class="form-control" id="email" name="email" placeholder="Ingresar email">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Ingresar email">
 							   </div>
 												
 							  <div class="form-group">
 								   <label for="asunto">Asunto:</label>
-								   <input type="text" class="form-control" id="asunto"name="asunto" placeholder="Ingresar asutno">
+										<input type="text" class="form-control" id="asunto"name="asunto" placeholder="Ingresar asutno">
 							   </div>
 												
 							   <div class="form-group">
 						     		<label for="commentario">Mensaje:</label>
-									<textarea class="form-control" rows="5" id="commentario" name="msj" placeholder="Ingresar mensaje"></textarea>
+										<textarea class="form-control" rows="5" id="commentario" name="msj" placeholder="Ingresar mensaje"></textarea>
 							  </div>
 												
-								<button type="submit" class="btn btn-success" id="enviar" name="enviar">Enviar</button>
+								<input class="btn btn-success" type="button" value="Enviar mensaje" id="enviar" name="enviar"/>
 							</form><br />
 										  
 							 <div id="resultado" name="resultado">
@@ -117,10 +119,11 @@
 		
 			</div>
 			
+			 <hr class="featurette-divider">
 			<!-- FOOTER -->
-		  <footer>
+		  <footer id="foot">
 			<p class="pull-right"><a href="#">Ir arriba</a></p>
-			<p>2016 - Centro de Revision Tecnica</p>
+			<p>2016 - Inspecciones Técnicas Pompeya SRL.</p>
 		  </footer>
 	  
 	</div>
@@ -133,52 +136,47 @@
     <script src="../js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../js/holder.min.js"></script>
-	 <!-- Just to do beautiful tables with js -->
-    <script src="../js/tab.min.js"></script>
-	
-	<script type="text/javascript">
-		$('#myTabs a').click(function (e) {
-				e.preventDefault()
-				$(this).tab('show')
-		})
-	</script>
-	
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
 	
-	<!-- JQuery -->
+	<!-- JQuery Form -->
         <script type="text/javascript">
-            $(document).ready(function(){
-				<!-- JQuery para form -->
-						
+           			
 				$("#enviar").click(verifica);	
 				
 				function verifica(){
+					
+						$('html, body').animate({
+							scrollTop: $("#foot").offset().top
+						}, 3000);
+						
+						$("#resultado").hide();
 						
 						var data = $("#formu").serializeArray();
-							
+						
 						$.ajax({
-								type: 'post',
-								url: 'func/valida_po.php',
+								type: "post",
+								url: "func/valida_po.php",
 								data: data, 
-								beforeSend: function () {    
-													   $("#resultado").html("Procesando, espere por favor...");
-													   $("#resultado").show();
+								beforeSend: function () {   
+													  $("#resultado").html("Procesando, espere por favor...");
 														},
 								success: function(msj){
-													   $("#resultado").html(msj);
-													   $("#resultado").show();
+													   
+													   $("#resultado").attr("class","alert alert-warning");
+													   $("#resultado").slideToggle("slow",function(){ 
+																								$("#resultado").html(msj);																				
+																								});
 													   }
-													 
+												 
 							});
-				}
-            });
+					}				
         </script>
         
         <!-- Google maps -->
         <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script>
-            var myCenter= new google.maps.LatLng(-34.76962901102461, -58.473983799999985);
+            var myCenter= new google.maps.LatLng(-34.6404437, -58.416108699999995);
             
             function initialize() {
                 var mapProp = {

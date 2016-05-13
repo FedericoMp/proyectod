@@ -48,15 +48,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="../index.php">Logo</a>
+              <a class="navbar-brand" href="index.php" style="color:white;">
+				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
                 <li class="active"><a href="revision.php">Revision</a></li>
-                <li><a href="normativa.php">Normativa</a></li>
+                <!--<li><a href="normativa.php">Normativa</a></li>-->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="requisitos.php">Transporte de carga</a></li>
                     <li><a href="requisitos.php">Transporte de pasajeros</a></li>
@@ -115,7 +117,7 @@
 								<li>Estabilizadores: C: Desgaste de cubiertas.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://mla-s2-p.mlstatic.com/kit-tren-delantero-fiat-dunauno-147-6221-MLA94478733_9416-O.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 				
@@ -126,7 +128,7 @@
 								<li>Elásticos: C: Flojos o rotos, desprendimiento de eje.</li>
 							</ul>
 							<div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://www.elimax.com.ar/grafico-suspension-trasera.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 					
@@ -137,7 +139,7 @@
 								<li>Herrumbres y fisuras.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://www.tallercalderon.com/wp-content/uploads/2012/09/pintura-chasis.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 				
@@ -150,7 +152,7 @@
 								<li> Verificación de perdidas en el sistema de frenos.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://www.sobreruedas.org/var/sbr/storage/images/articulos/mecanica_y_tecnologia/frenos_ceramicos/7031-2-esl-ES/frenos_ceramicos.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 					
@@ -160,7 +162,7 @@
 								<li>Alineación de faros.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://www.talleresramoshnos.com/wp-content/uploads/2012/06/10_Luces_A_g.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 					
@@ -176,7 +178,7 @@
 								<li> Etc.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="http://www.tecnocoche.com/wp-content/uploads/2015/01/carroceria_caracteristicas.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 	
@@ -193,30 +195,25 @@
 									<li>C: Disminución de potencia consumo elevado de combustible.</li>
 							</ul>
 							 <div class="col-md-5">
-								<img class="featurette-image img-responsive" data-src="holder.js/250x250/auto" alt="Generic placeholder image">
+								<img class="featurette-image img-responsive" src="https://orlandoolguin.files.wordpress.com/2009/04/motor_auto.jpg" width="250" height="250" alt="Generic placeholder image">
 							</div>
 						</div>
 				</div>
 			</div>
 		</div>
-	</div>
+
 
 	
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-	
-    <div class="container marketing">
 
       <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Ir arriba</a></p>
-        <p>2016 - Centro de Revision Tecnica</p>
+        <p>2016 - Inspecciones Técnicas Pompeya SRL.</p>
       </footer>
 
     </div><!-- /.container -->

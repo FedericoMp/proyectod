@@ -1,4 +1,5 @@
-/* seccion revision y estilos de tabs*/
+/* NO ESTA ENLAZADO STYLE.CSS AL INDEX */
+/* seccion revision/requisitos - estilos de tabs*/
 .nav-tabs.centered > li, .nav-pills.centered > li {
     float:none;
     display:inline-block;
@@ -18,15 +19,15 @@ center-block {
 	margin-bottom:50px;
 }
 .container.marketing{
-	height:280px;
+	/*height:380px;*/
 }
 .nav.nav-tabs.centered{
 	margin-bottom:35px;
 }
 .tab-pane.fade{
 	padding:30px;
-} 
- #myTab li a { 
+}
+#myTab li a { 
 	color:#A9A9A9;
 }
 #myTab li.active a {
@@ -37,3 +38,12 @@ center-block {
 	color:#A9A9A9;
 }
 /* fin seccion revision */
+
+
+
+
+
+
+
+
+

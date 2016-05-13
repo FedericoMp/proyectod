@@ -45,15 +45,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php">Logo</a>
+              <a class="navbar-brand" href="index.php" style="color:white;">
+				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.php">Inicio</a></li>
                 <li><a href="pages/revision.php">Revision</a></li>
-                <li><a href="pages/normativa.php">Normativa</a></li>
+                <!--<li><a href="pages/normativa.php">Normativa</a></li>-->
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="pages/revision.php">Transporte de carga</a></li>
                     <li><a href="pages/revision.php">Transporte de pasajeros</a></li>
@@ -81,7 +83,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos Particulares</h1><br />
@@ -93,7 +95,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos de Pasajeros</h1><br />
@@ -105,7 +107,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos de Carga</h1><br />
@@ -137,32 +139,45 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="http://gelga.com.mx/img/sip00.png" alt="Generic placeholder image" width="200" height="200">
           <h2>Revision</h2>
 			<p class="text-justify">Le mostramos los aspectos técnicos tenidos en 
 			cuenta al momento de revisar su unidad. El pasar por todas estas 
 			inspecciones, le indicará que su vehículo se encuentra en óptimas condiciones de circulación
 			</p>
-          <p><a class="btn btn-default" href="#" role="button">Seguir leyendo &raquo;</a></p>
+          <p><a class="btn btn-success" href="pages/revision.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+       
+	   <!--<div class="col-lg-4">
+          <img class="img-circle" src="http://www.correodelorinoco.gob.ve/wp-content/uploads/2012/02/Firma-presidencial.jpg" width="200" height="200">
           <h2>Normativa</h2>
 			 <p class="text-justify">Normativas que regulan la Revisión técnica.
 			 En cada uno de los botones encontrará las leyes 
 			 que regulan cada uno de los diferentes tipos de vehículos 
 			 para su circulación y uso comercial.
 			 </p>
-          <p><a class="btn btn-default" href="#" role="button">Seguir leyendo &raquo;</a></p>
+          <p><a class="btn btn-success" href="pages/normativa.php" role="button">Seguir leyendo &raquo;</a></p>
+        </div> /.col-lg-4 -->
+		
+		<div class="col-lg-4">
+          <img class="img-circle" src="http://www.informaticosbarcelona.com/wp-content/uploads/2015/12/img-01_inicio-300x300.jpg" width="200" height="200">
+          <h2>Contacto</h2>
+			 <p class="text-justify">En la sección de contacto, complete el 
+			 formulario con sus datos. Ante cualquier duda o 
+			 consulta puede enviarnos un email y le responderemos
+			 a la brevedad.
+			 </p>
+          <p><a class="btn btn-success" href="pages/contacto.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+       
+	   <div class="col-lg-4">
+          <img class="img-circle" src="http://www.adipiscor.com/img/uploads/images/fuente_lanacion_cl.jpg" width="200" height="200">
           <h2>Requisitos</h2>
 			<p class="text-justify">Estos son los requisitos y la documentación a presentar para realizar la
 			verificación técnica de vehículos de transporte interjurisdiccional de cargas, transporte de
 			pasajeros y de vehiculos particulares.
 			</p>
-          <p><a class="btn btn-default" href="#" role="button">Seguir leyendo &raquo;</a></p>
+          <p><a class="btn btn-success" href="pages/requisitos.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -189,7 +204,7 @@
 			  </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="http://neoauto.com/noticias/wp-content/uploads/2015/05/auto-usado-revision-mecanica.jpg" width="500" height="500" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -208,7 +223,7 @@
 			</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="http://www.autofrance.com.ar/wp-content/uploads/2016/01/foto_0000000120150312105508.jpg" width="500" height="500" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -226,19 +241,16 @@
 			</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="http://www.periodicolaguia.com.ar/wp-content/uploads/2015/01/11.jpg" width="500" height="500" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
-
-
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Ir arriba</a></p>
-        <p>2016 - Centro de Revision Tecnica</p>
+        <p>2016 - Inspecciones Técnicas Pompeya SRL.</p>
       </footer>
 
     </div><!-- /.container -->
