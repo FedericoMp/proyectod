@@ -56,7 +56,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
                 <li class="active"><a href="revision.php">Revision</a></li>
-                <!--<li><a href="normativa.php">Normativa</a></li>-->
+                <li><a href="normativa.php">Normativa</a></li>
                 <li class="dropdown">
                   <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -89,7 +89,7 @@
         <div class="row">
 		
 		  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs centered" role="tablist" id="myTab">
+			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
 				<li role="presentation" class="active"><a href="#tdel" aria-controls="tdel" role="tab" data-toggle="tab">Tren Delantero</a></li>
 				<li role="presentation"><a href="#ttras" aria-controls="ttras" role="tab" data-toggle="tab">Tren trasero</a></li>
 				<li role="presentation"><a href="#chasis" aria-controls="chasis" role="tab" data-toggle="tab">Chasis</a></li>
@@ -99,7 +99,7 @@
 				<li role="presentation"><a href="#cobustion" aria-controls="cobustion" role="tab" data-toggle="tab">Combustion</a></li>
 			  </ul>
 			
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2" id="revision">
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab">
 

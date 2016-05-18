@@ -53,7 +53,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.php">Inicio</a></li>
                 <li><a href="pages/revision.php">Revision</a></li>
-                <!--<li><a href="pages/normativa.php">Normativa</a></li>-->
+                <li><a href="pages/normativa.php">Normativa</a></li>
                 <li class="dropdown">
                   <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -83,7 +83,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide">
+          <img class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide" style="-webkit-filter: blur(3px);filter: blur(3px);"> 
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos Particulares</h1><br />
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide">
+          <img class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide" style="-webkit-filter: blur(3px);filter: blur(3px);">
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos de Pasajeros</h1><br />
@@ -107,7 +107,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide">
+          <img class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide" style="-webkit-filter: blur(3px);filter: blur(3px);">
           <div class="container">
             <div class="carousel-caption text-justify">
               <h1>Vehículos de Carga</h1><br />

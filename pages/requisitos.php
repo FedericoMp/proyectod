@@ -89,13 +89,13 @@
         <div class="row">
 		
 		  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs centered" role="tablist" id="myTab">
+			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
 				<li role="presentation" class="active"><a href="#tcar" aria-controls="tcar" role="tab" data-toggle="tab">Transporte de carga</a></li>
 				<li role="presentation"><a href="#tpasaj" aria-controls="tpasaj" role="tab" data-toggle="tab">Transporte de pasajeros</a></li>
 				<li role="presentation"><a href="#tpart" aria-controls="tpart" role="tab" data-toggle="tab">Transporte particular</a></li>
 			  </ul>
 			  <!-- Tab panes -->
-			 <div class="col-md-8 col-md-offset-2">
+			 <div class="col-md-8 col-md-offset-2 bg-info" id="requisitos">
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab">
 

@@ -22,28 +22,40 @@ center-block {
 	/*height:380px;*/
 }
 .nav.nav-tabs.centered{
-	margin-bottom:35px;
+	/*margin-bottom:35px;*/
 }
 .tab-pane.fade{
 	padding:30px;
 }
 #myTab li a { 
-	color:#A9A9A9;
+	color:#13A3D1;
 }
 #myTab li.active a {
-	background-color:#329CCC; 
+	background-color:#13A3D1; 
 	color:white;
 }
 .my-tab.tab-pane{ 
-	color:#A9A9A9;
+	color:#13A3D1;
 }
+#revision{
+	height:280px;
+	/*color:white;*/
+	background-color: #DCDCDC;
+}
+#requisitos{
+	/*color:white;*/
+	background-color: #DCDCDC;
+}
+/* fin seccion revision y requisitos*/
+
+/* contacto */
 .noresize {
   resize: none; 
 }
 textarea {
   min-height:110px;
 }
-/* fin seccion revision */
+/* fin seccion contacto */
 
 
 

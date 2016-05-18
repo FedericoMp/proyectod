@@ -56,7 +56,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
                 <li><a href="revision.php">Revision</a></li>
-               <!-- <li><a href="normativa.php">Normativa</a></li>-->
+               <li><a href="normativa.php">Normativa</a></li>
                 <li class="dropdown">
                   <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -116,10 +116,11 @@
 			 <h2 class="featurette-heading text-center" style="margin-bottom: 50px;">Ubicación</h2>
 			<!-- Mapa de google maps -->
 					<div class="col-md-3 col-sm-5" style="height:320px;background-color:#CC2719;color:white;padding:20px 0 20px 20px;">
-						<p><span class="glyphicon glyphicon-map-marker"></span> Ubicación:  Av Saenz 107 (esquina Gregorio Pomar)</p>
+						<p><span class="glyphicon glyphicon-map-marker"></span> Ubicación: </p>
+							<p>Gregorio Pomar 3850 (esq. Av. Saenz)</p>
 							<p style="padding-left:20px;">Localidad Nueva Pompeya</p>
 						<p><span class="glyphicon glyphicon-earphone"></span> Teléfono:</p>
-						<p style="padding-left:20px;"> 011 4912-0138</p>
+							<p style="padding-left:20px;"> 011 4912-0138</p>
 						<p><span class="glyphicon glyphicon-time"></span>  Horarios:</p>
 							<p style="padding-left:20px;">Lunes a Viernes de 8:00 a 18:00 hs.</p>
 							<p style="padding-left:20px;"> Sábados de 8:00 a 12:00 hs.</p>
