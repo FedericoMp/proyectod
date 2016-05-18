@@ -45,8 +45,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php" style="color:white;">
-				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+              <a class="navbar-brand" href="index.php">
+				<img src="img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -186,67 +186,7 @@
 
       <hr class="featurette-divider">
 		
-		 <div class="row featurette">
-        <div class="col-md-12" style="margin-bottom:50px;">
-          <h2 class="featurette-heading text-center">¿Porqué hacer la Revisión Técnica?</h2>
-			</div>
-		</div>
 		
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h3 class="featurette-heading" style="font-size:43px;">Es tan solo un certificado</h3>
-			  <br /><p class="lead text-justify">
-				Generalmente se piensa que la revisión técnica es tan solo un certificado, 
-				un mero papel que el transportista tiene que tener obligado porque lo exigen
-				en la calle. Hay que diferenciar entre certificado y revisión técnica. Hacer 
-				una revisión técnica periódica significa hacer una auditoria técnica del vehiculo, para que 
-				el vehiculo no quede fuera de servicio o en el peor de los casos no provoque un accidente. 				
-			  </p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://neoauto.com/noticias/wp-content/uploads/2015/05/auto-usado-revision-mecanica.jpg" width="500" height="500" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h3 class="featurette-heading" style="font-size:43px;">Servicio técnico</h3>
-			<br /><p class="lead text-justify"> 
-				Cuando usted lleva el vehiculo a la revisión técnica tenga en cuenta que paga por un 
-				servicio técnico en el que se evaluaran todos los aspectos de seguridad, y se le darán 
-				orientaciones para prevenir futuras eventualidades. Tener el documento que certifica que 
-				su unidad esta en condiciones es tan importante como que su unidad este realmente en 
-				condiciones, si usted paga por un servicio de revisión técnica no debe dejarse vender un
-				mero certificado.
-			</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="http://www.autofrance.com.ar/wp-content/uploads/2016/01/foto_0000000120150312105508.jpg" width="500" height="500" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h3 class="featurette-heading" style="font-size:43px;">Revisión técnica a conciencia</h3>
-			<br /><p class="lead text-justify">
-				No sirve tener el certificado de aprobado y el vehiculo en un taller por
-				un determinado tiempo lo que provoca importantes desembolsos. Realizar una revisión técnica
-				a conciencia aumente la vida útil del vehiculo. Tenga en cuenta que el costo de la revisión 
-				técnica es en todos los casos muy inferior al costo de cualquier reparación previsible por
-				haber efectuado una revisión técnica conciente.
-			</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://www.periodicolaguia.com.ar/wp-content/uploads/2015/01/11.jpg" width="500" height="500" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Ir arriba</a></p>

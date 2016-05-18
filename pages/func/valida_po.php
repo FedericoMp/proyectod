@@ -15,7 +15,7 @@
 				$this->asunto = addslashes(htmlspecialchars($_POST["asunto"])); 
 				$this->msj = addslashes(htmlspecialchars($_POST["msj"]));
 				
-				$this->destinatario ="contacto@loscuatroa.com.ar";
+				$this->destinatario ="i.t.p@hotmail.com";
 				
 				$this->errores = "";
 				

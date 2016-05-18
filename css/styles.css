@@ -37,6 +37,12 @@ center-block {
 .my-tab.tab-pane{ 
 	color:#A9A9A9;
 }
+.noresize {
+  resize: none; 
+}
+textarea {
+  min-height:110px;
+}
 /* fin seccion revision */
 
 

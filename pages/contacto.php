@@ -48,8 +48,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-               <a class="navbar-brand" href="index.php" style="color:white;">
-				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+                <a class="navbar-brand" href="index.php">
+				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -81,34 +81,28 @@
 		
 		<div class="row featurette" >
 			<div class="col-md-12" >
-			  <h2 class="featurette-heading text-center">Ubicación</h2>
+			  <h2 class="featurette-heading text-center">Contacto</h2>
 			</div>
 		</div>
 		
 	<div class="container marketing" >
 			<div class="row">
-			
-					<!-- Mapa de google maps -->
-					<div id="googleMap" style="width:100%;height:400px;margin-bottom:80px;"></div>
-					
-					<!-- Formulario de contacto -->
-						 <h2 class="featurette-heading text-center" style="margin-bottom: 50px;">Formulario de  contacto</h2>
-
-						  <form role="form" id="formu" name="formu" method="post">
+					<div class="col-md-12" >
+						<form role="form" id="formu" name="formu" method="post">
 										  
 							  <div class="form-group">
 								   <label for="email">Email:</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Ingresar email">
+										<input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email">
 							   </div>
 												
 							  <div class="form-group">
 								   <label for="asunto">Asunto:</label>
-										<input type="text" class="form-control" id="asunto"name="asunto" placeholder="Ingresar asutno">
+										<input type="text" class="form-control" id="asunto"name="asunto" placeholder="Ingrese el asutno">
 							   </div>
 												
 							   <div class="form-group">
 						     		<label for="commentario">Mensaje:</label>
-										<textarea class="form-control" rows="5" id="commentario" name="msj" placeholder="Ingresar mensaje"></textarea>
+										<textarea class="form-control noresize" rows="5" id="commentario" name="msj" placeholder="Ingrese su mensaje..."></textarea>
 							  </div>
 												
 								<input class="btn btn-success" type="button" value="Enviar mensaje" id="enviar" name="enviar"/>
@@ -116,7 +110,24 @@
 										  
 							 <div id="resultado" name="resultado">
 							</div><br /><br />
-		
+					</div>						
+			
+			
+			 <h2 class="featurette-heading text-center" style="margin-bottom: 50px;">Ubicación</h2>
+			<!-- Mapa de google maps -->
+					<div class="col-md-3 col-sm-5" style="height:320px;background-color:#CC2719;color:white;padding:20px 0 20px 20px;">
+						<p><span class="glyphicon glyphicon-map-marker"></span> Ubicación:  Av Saenz 107 (esquina Gregorio Pomar)</p>
+							<p style="padding-left:20px;">Localidad Nueva Pompeya</p>
+						<p><span class="glyphicon glyphicon-earphone"></span> Teléfono:</p>
+						<p style="padding-left:20px;"> 011 4912-0138</p>
+						<p><span class="glyphicon glyphicon-time"></span>  Horarios:</p>
+							<p style="padding-left:20px;">Lunes a Viernes de 8:00 a 18:00 hs.</p>
+							<p style="padding-left:20px;"> Sábados de 8:00 a 12:00 hs.</p>
+						<p><span class="glyphicon glyphicon-envelope"></span>  E-mail:</p>
+							<p style="padding-left:20px;">i.t.p@hotmail.com</p>
+					</div>
+					<div class="col-md-9" id="googleMap" style="height:320px;"></div>
+					
 			</div>
 			
 			 <hr class="featurette-divider">
@@ -147,7 +158,7 @@
 				function verifica(){
 					
 						$('html, body').animate({
-							scrollTop: $("#foot").offset().top
+							scrollTop: $("#formu").offset().top
 						}, 3000);
 						
 						$("#resultado").hide();
@@ -163,7 +174,7 @@
 														},
 								success: function(msj){
 													   
-													   $("#resultado").attr("class","alert alert-warning");
+													   $("#resultado").attr("class","alert alert-danger");
 													   $("#resultado").slideToggle("slow",function(){ 
 																								$("#resultado").html(msj);																				
 																								});
@@ -181,7 +192,7 @@
             function initialize() {
                 var mapProp = {
                   center:myCenter,
-                  zoom: 14,
+                  zoom: 17,
                   mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
 

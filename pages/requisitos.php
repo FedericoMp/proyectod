@@ -48,8 +48,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-               <a class="navbar-brand" href="index.php" style="color:white;">
-				<img class="img-circle" src="http://creditosparaauto.com.ar/files/2016/01/index.png" width="50" height="50" style="margin-top:-15px;" alt="logo" />
+                <a class="navbar-brand" href="index.php">
+				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -115,11 +115,6 @@
 							<br>
 							- CERTIFICADO DE AGREGADO DE TANQUES ADICIONALES Y/O CERTIFICACION DEL CISTERNA SI CORRESPONDE.
 							<br>
-							</p>
-							<p>
-							<b>
-							<u>BANDAS REFLECTIVAS OBLIGATORIAS (CATEGORIAS N1, N2, N3, O1, O2, O3, O4) </u>
-							</b>
 							</p>
 							<p>
 							<b>Frente del vehículo:</b>
@@ -215,11 +210,6 @@
 							- (M3 TRANSPORTE URBANO) LIMITADOR DE VELOCIDAD
 							</p>
 							<p>
-							<b>
-							<u>BANDAS REFLECTIVAS OBLIGATORIAS</u>
-							</b>
-							</p>
-							<p>
 							<b>Frente del vehículo:</b>
 							<br>
 							Se debe cubrir el por lo menos el 80% del frente del vehículo con banda reflectiva de color blanco o amarillo (conformes a la norma IRAM 3952).
@@ -281,12 +271,6 @@
 						</p>
 						<p>
 						<b>
-						<u>¿CUÁNTO DEMORA LA REVISIÓN?</u>
-						</b>
-						</p>
-						<p>Aproximadamente entre 15 y 20 minutos demora la revisión total del vehículo y la impresión del comprobante de RTO.</p>
-						<p>
-						<b>
 						<u>¿TIENE QUE PRESENTARSE EL TITULAR?</u>
 						</b>
 						</p>
@@ -297,12 +281,6 @@
 						</b>
 						</p>
 						<p>No, la revisión técnica obligatoria es para vehículos de más de 3 años de antigüedad y se otorga por 2 años para vehículos de hasta 7 años de antigüedad, y por un año para vehículos de más de 7 años de antigüedad.</p>
-						<p>
-						<b>
-						<u>TENGO UNA CAMIONETA DE USO PARTICULAR ¿TENGO QUE REALIZAR LA VERIFICACION?</u>
-						</b>
-						</p>
-						<p>Si, debe realizarla como vehículo particular siempre y cuando no la utilice como transporte de carga. De ser así y realizar la verificación como vehículo particular, se expone a recibir infracciones, multas, y hasta la retención del vehículo por las autoridades.</p>
 						</div>
 						</div>
 						</section>
