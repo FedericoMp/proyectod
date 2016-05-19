@@ -30,21 +30,24 @@ center-block {
 #myTab li a { 
 	color:#13A3D1;
 }
-#myTab li.active a {
-	background-color:#13A3D1; 
-	color:white;
+#myTab li.active a , #btn{
+	background-color:#ededed; 
+	/*background-color:#13A3D1; */
+	color:13A3D1;
 }
 .my-tab.tab-pane{ 
 	color:#13A3D1;
-}
-#revision{
-	height:280px;
-	/*color:white;*/
-	background-color: #DCDCDC;
-}
-#requisitos, #normativa{
-	/*color:white;*/
-	background-color: #DCDCDC;
+}
+#requisitos, #revision, #normativa{
+	background: rgba(237,237,237,1);
+background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(53%, rgba(246,246,246,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff', GradientType=0 );
+
 }
 /* fin seccion revision y requisitos*/
 
@@ -56,6 +59,29 @@ textarea {
   min-height:110px;
 }
 /* fin seccion contacto */
+
+/* Home gallery */
+
+#img_galery{
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+
+#txt_galery{
+	-webkit-box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 30px 0px rgba(0,0,0,0.75);
+	background: rgba(37,169,217,1);
+	background: rgba(0,0,0,0.41);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.41) 0%, rgba(168,168,168,0.32) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.41)), color-stop(100%, rgba(168,168,168,0.32)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.41) 0%, rgba(168,168,168,0.32) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.41) 0%, rgba(168,168,168,0.32) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.41) 0%, rgba(168,168,168,0.32) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.41) 0%, rgba(168,168,168,0.32) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#a8a8a8', GradientType=0 );
+}
+/* end gallery*/
 
 
 

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Contacto</title>
+    <title>Normativa</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
@@ -77,9 +77,26 @@
 
     <!-- Carousel
     ================================================== -->
+	 <div id="myCarousel" class="carousel slide" id="img_gal_text">
+      <!-- Indicators -->
 
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img id="img_galery" class="first-slide" src="http://etsie.ugr.es/documentos/escuela/00-imagenes/normativa_e87ec.jpg" alt="First slide"> 
+          <div class="container">
+            <div id="txt_galery" class="carousel-caption text-justify">
+              <h1>Normativas que regulan la Revisión técnica</h1><br />
+				<p>
+					En cada uno de los botones encontrará las leyes que regulan cada uno de los diferentes tipos de vehículos para su circulación y uso comercial.
+				</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.carousel -->
 		
-		<div class="row featurette" >
+		<div class="row featurette" style="margin-top:-40px;">
 			<div class="col-md-12" >
 			  <h2 class="featurette-heading text-center">¿Que tipo de vehículo va a revisar?</h2>
 			</div>
@@ -87,7 +104,6 @@
 		
 	<div class="container marketing" >
 	     <div class="row">
-		
 		  <!-- Nav tabs -->
 			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
 				<li role="presentation" class="active"><a href="#tdel" aria-controls="tdel" role="tab" data-toggle="tab">Normativa General</a></li>
@@ -98,47 +114,47 @@
 			
 			<div class="col-md-8 col-md-offset-2" id="normativa">
 			  <!-- Tab panes -->
-			  <div class="tab-content centered my-tab">
+			  <div class="tab-content centered my-tab col-md-12">
 
 						<div role="tabpanel" class="tab-pane fade in active" id="tdel">
-							<a href="https://www.dropbox.com/s/9qh8eywxci0as34/decreto779.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Decreto 779/95</button>
+							<a href="https://www.dropbox.com/s/kud3a8q5ang9f2r/decreto779.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Decreto 779/95</button>
 							</a>
-							<a href="https://www.dropbox.com/s/003fj42k6gccgj0/disposicion25.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Disposición 25</button>
+							<a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion25.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Disposición 25</button>
 							</a>
 						</div>
 				
 						<div role="tabpanel" class="tab-pane fade" id="ttras">
-							<a href="https://www.dropbox.com/s/2i4ilgcn7bg46ub/decreto306.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Decreto 306</button>
+							<a href="https://www.dropbox.com/s/22z4vv1uyc6p013/decreto306.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Decreto 306</button>
 							</a>
-							<a href="https://www.dropbox.com/s/6g8wjxuqi1yzsja/disposicion4.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Disposición 4</button>
+							<a href="https://www.dropbox.com/s/jwwwjb7zi0jaxq2/disposicion4.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Disposición 4</button>
 							</a>
-							<a href="https://www.dropbox.com/s/x701mhn1yx7amf0/disposicion293.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Disposición 293</button>
+							<a href="https://www.dropbox.com/s/0oo5cicbx9dqvex/disposicion293.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Disposición 293</button>
 							</a>
-							<a href="https://www.dropbox.com/s/88a9vfflxtzu0t5/disposicion11.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Disposición 11</button>
+							<a href="https://www.dropbox.com/s/36ne1y7jzyrp6vg/disposicion11.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Disposición 11</button>
 							</a>
 						</div>
 					
 						<div role="tabpanel" class="tab-pane fade" id="chasis">
-							<a href="https://www.dropbox.com/s/gep8xsk0dt9krc3/resolucion894.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Resolución 894</button>
+							<a href="https://www.dropbox.com/s/ham8nz9hil9qw12/resolucion894.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Resolución 894</button>
 							</a>
-							<a href="https://www.dropbox.com/s/1wndhiz0115zjiv/resolucion977.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Resolución 977</button>
+							<a href="https://www.dropbox.com/s/a9hqzed7xu5pyp6/resolucion977.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Resolución 977</button>
 							</a>
 						</div>
 				
 						<div role="tabpanel" class="tab-pane fade" id="frenos">
-							<a href="https://www.dropbox.com/s/zurrkoqpopfqjf3/decreto1716.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Decreto 1716</button>
+							<a href="https://www.dropbox.com/s/na789pszqbvfoiv/decreto1716.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Decreto 1716</button>
 							</a>
-							<a href="https://www.dropbox.com/s/kjel20qptnb1wh0/ley26363.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default">Ley 26.326</button>
+							<a href="https://www.dropbox.com/s/6ovzt6xb8c0q6o9/ley26363.pdf?dl=0" target="_blank">
+								<button type="button" class="btn btn-default" id="btn">Ley 26.326</button>
 							</a>
 						</div>
 					

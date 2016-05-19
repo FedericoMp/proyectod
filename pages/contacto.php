@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>

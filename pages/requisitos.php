@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
@@ -56,7 +56,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
                 <li><a href="revision.php">Revision</a></li>
-                <!--<li><a href="normativa.php">Normativa</a></li>-->
+                <li><a href="normativa.php">Normativa</a></li>
                 <li class="dropdown active">
                   <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -77,9 +77,27 @@
 
     <!-- Carousel
     ================================================== -->
+	 <div id="myCarousel" class="carousel slide" id="img_gal_text">
+      <!-- Indicators -->
 
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img id="img_galery" class="first-slide" src="http://www.sigalapista.cl/wp-content/uploads/2013/04/revisi%C3%B3n-t%C3%A9cnica-2.jpg" alt="First slide"> 
+          <div class="container">
+            <div id="txt_galery" class="carousel-caption text-justify">
+              <h1>Requisitos del Transporte</h1><br />
+				<p>
+					Estos son los requisitos y la documentación a presentar para realizar la verificación técnica 
+					de vehículos de transporte.
+				</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.carousel -->
 		
-		<div class="row featurette" >
+		<div class="row featurette" style="margin-top:-40px;">
 			<div class="col-md-12" >
 			  <h2 class="featurette-heading text-center">Requisitos y Documentación</h2>
 			</div>
@@ -89,7 +107,7 @@
         <div class="row">
 		
 		  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
+			  <ul class="nav nav-tabs centered col-md-12  col-sm-12" role="tablist" id="myTab" style="border:none;">
 				<li role="presentation" class="active"><a href="#tcar" aria-controls="tcar" role="tab" data-toggle="tab">Transporte de carga</a></li>
 				<li role="presentation"><a href="#tpasaj" aria-controls="tpasaj" role="tab" data-toggle="tab">Transporte de pasajeros</a></li>
 				<li role="presentation"><a href="#tpart" aria-controls="tpart" role="tab" data-toggle="tab">Transporte particular</a></li>

@@ -13,6 +13,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- My CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -51,7 +54,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.php">Inicio</a></li>
+                <li class="active"><a href="../index.php">Inicio</a></li>
                 <li><a href="pages/revision.php">Revision</a></li>
                 <li><a href="pages/normativa.php">Normativa</a></li>
                 <li class="dropdown">
@@ -83,9 +86,9 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide" style="-webkit-filter: blur(3px);filter: blur(3px);"> 
+          <img id="img_galery" class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide"> 
           <div class="container">
-            <div class="carousel-caption text-justify">
+            <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos Particulares</h1><br />
 				<p>
 					Se realizará la revisión técnica a partir de los 3 años tomando como referencia la fecha de inscripción en el registro automotor. Hasta los 7 
@@ -95,9 +98,9 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide" style="-webkit-filter: blur(3px);filter: blur(3px);">
+          <img id="img_galery" class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide">
           <div class="container">
-            <div class="carousel-caption text-justify">
+            <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos de Pasajeros</h1><br />
               <p>
 				Se debe realizar la revisión técnica desde 0Km hasta los 10 años de antiguedad cada 6 meses, pasados los 10 años de antiguedad se realizará cada 
@@ -107,9 +110,9 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide" style="-webkit-filter: blur(3px);filter: blur(3px);">
+          <img id="img_galery" class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide">
           <div class="container">
-            <div class="carousel-caption text-justify">
+            <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos de Carga</h1><br />
 				<p>
 					Se realizará la revisión técnica a partir del primer año de antiguedad desde la fecha de inscripción en el registro automotor. Hasta los 20 años
@@ -148,7 +151,7 @@
           <p><a class="btn btn-success" href="pages/revision.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
        
-	   <!--<div class="col-lg-4">
+	   <div class="col-lg-4">
           <img class="img-circle" src="http://www.correodelorinoco.gob.ve/wp-content/uploads/2012/02/Firma-presidencial.jpg" width="200" height="200">
           <h2>Normativa</h2>
 			 <p class="text-justify">Normativas que regulan la Revisión técnica.
@@ -157,9 +160,9 @@
 			 para su circulación y uso comercial.
 			 </p>
           <p><a class="btn btn-success" href="pages/normativa.php" role="button">Seguir leyendo &raquo;</a></p>
-        </div> /.col-lg-4 -->
+        </div> 
 		
-		<div class="col-lg-4">
+		<!--<div class="col-lg-4">
           <img class="img-circle" src="http://www.informaticosbarcelona.com/wp-content/uploads/2015/12/img-01_inicio-300x300.jpg" width="200" height="200">
           <h2>Contacto</h2>
 			 <p class="text-justify">En la sección de contacto, complete el 
@@ -168,7 +171,7 @@
 			 a la brevedad.
 			 </p>
           <p><a class="btn btn-success" href="pages/contacto.php" role="button">Seguir leyendo &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+        </div> /.col-lg-4 -->
        
 	   <div class="col-lg-4">
           <img class="img-circle" src="http://www.adipiscor.com/img/uploads/images/fuente_lanacion_cl.jpg" width="200" height="200">
