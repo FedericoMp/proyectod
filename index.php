@@ -101,7 +101,7 @@
           <img id="img_galery" class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide">
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
-              <h1>Vehículos de Pasajeros</h1><br />
+              <h1>Vehículos de Pasajeros </h1><br />
               <p>
 				Se debe realizar la revisión técnica desde 0Km hasta los 10 años de antiguedad cada 6 meses, pasados los 10 años de antiguedad se realizará cada 
 				4 meses, hasta el vencimiento de la prorroga.
