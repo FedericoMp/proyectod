@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="description" content="Inspecciones Técnias Pompeya S.R.L. tiene como objetivo promover 
+	el mantenimiento de las condiciones mecánicas de seguridad a lo largo de la vida útil de los vehículos y 
+    reduccir los accidentes de tránsito causados por fallas técnicas.">
+    <meta name="author" content="Inspecciones Técnias Pompeya S.R.L.">
+    <link rel="icon" href="../img/favicon.ico">
 
     <title>Requisitos</title>
 
