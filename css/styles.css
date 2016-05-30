@@ -37,7 +37,7 @@ center-block {
 }
 .my-tab.tab-pane{ 
 	color:#13A3D1;
-}
+}
 #requisitos, #revision, #normativa{
 	background: rgba(237,237,237,1);
 background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(246,246,246,1) 53%, rgba(255,255,255,1) 100%);
@@ -63,8 +63,8 @@ textarea {
 /* Home gallery */
 
 #img_galery{
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
 }
 
 #txt_galery{

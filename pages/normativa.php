@@ -82,7 +82,7 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img id="img_galery" class="first-slide" src="http://etsie.ugr.es/documentos/escuela/00-imagenes/normativa_e87ec.jpg" alt="First slide"> 
+          <img id="img_galery" class="first-slide" src="../img/header/normativa.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Normativas que regulan la Revisión técnica</h1><br />

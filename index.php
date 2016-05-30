@@ -14,6 +14,9 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	
+	 <!-- Bootstrap Flexboxgrid CSS -->
+    <link href="css/flexboxgrid.min.css" rel="stylesheet">
+	
 	<!-- My CSS -->
     <link href="css/styles.css" rel="stylesheet">
 
@@ -86,7 +89,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img id="img_galery" class="first-slide" src="https://guiaclasificadoscolombia.com/wp-content/uploads/2015/08/015.jpg" alt="First slide"> 
+          <img id="img_galery" class="first-slide" src="img/galeria/particular.PNG" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos Particulares</h1><br />
@@ -98,7 +101,7 @@
           </div>
         </div>
         <div class="item">
-          <img id="img_galery" class="second-slide" src="http://cosmotrans.com.co/images/bg/servicios/vans3.jpg" alt="Second slide">
+          <img id="img_galery" class="second-slide" src="img/galeria/transporte.PNG" alt="Second slide">
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos de Pasajeros </h1><br />
@@ -110,7 +113,7 @@
           </div>
         </div>
         <div class="item">
-          <img id="img_galery" class="third-slide" src="https://subocol.files.wordpress.com/2013/09/camiones.jpg" alt="Third slide">
+          <img id="img_galery" class="third-slide" src="img/galeria/carga.jpg" alt="Third slide">
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Vehículos de Carga</h1><br />
@@ -141,48 +144,49 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="http://gelga.com.mx/img/sip00.png" alt="Generic placeholder image" width="200" height="200">
+        <div class="col-xs-12 col-md-6 center-xs middle-xs">
+          <img class="img-circle" src="img/index/revision.png" alt="Generic placeholder image" width="200" height="200">
           <h2>Revision</h2>
-			<p class="text-justify">Le mostramos los aspectos técnicos tenidos en 
+			<p class="text-justify" style="padding:15px;">Le mostramos los aspectos técnicos tenidos en 
 			cuenta al momento de revisar su unidad. El pasar por todas estas 
 			inspecciones, le indicará que su vehículo se encuentra en óptimas condiciones de circulación
 			</p>
           <p><a class="btn btn-success" href="pages/revision.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
        
-	   <div class="col-lg-4">
-          <img class="img-circle" src="http://www.correodelorinoco.gob.ve/wp-content/uploads/2012/02/Firma-presidencial.jpg" width="200" height="200">
+	   <div class="col-xs-12 col-md-6 center-xs middle-xs">
+          <img class="img-circle" src="img/index/normativa.jpg" width="200" height="200">
           <h2>Normativa</h2>
-			 <p class="text-justify">Normativas que regulan la Revisión técnica.
+			 <p class="text-justify" style="padding:15px;">Normativas que regulan la Revisión técnica.
 			 En cada uno de los botones encontrará las leyes 
 			 que regulan cada uno de los diferentes tipos de vehículos 
 			 para su circulación y uso comercial.
 			 </p>
           <p><a class="btn btn-success" href="pages/normativa.php" role="button">Seguir leyendo &raquo;</a></p>
         </div> 
-		
-		<!--<div class="col-lg-4">
-          <img class="img-circle" src="http://www.informaticosbarcelona.com/wp-content/uploads/2015/12/img-01_inicio-300x300.jpg" width="200" height="200">
-          <h2>Contacto</h2>
-			 <p class="text-justify">En la sección de contacto, complete el 
-			 formulario con sus datos. Ante cualquier duda o 
-			 consulta puede enviarnos un email y le responderemos
-			 a la brevedad.
-			 </p>
-          <p><a class="btn btn-success" href="pages/contacto.php" role="button">Seguir leyendo &raquo;</a></p>
-        </div> /.col-lg-4 -->
-       
-	   <div class="col-lg-4">
-          <img class="img-circle" src="http://www.adipiscor.com/img/uploads/images/fuente_lanacion_cl.jpg" width="200" height="200">
+		       
+	   <div class="col-xs-12 col-md-6 center-xs middle-xs">
+          <img class="img-circle" src="img/index/requisitos.jpg" width="200" height="200">
           <h2>Requisitos</h2>
-			<p class="text-justify">Estos son los requisitos y la documentación a presentar para realizar la
+			<p class="text-justify" style="padding:15px;">Estos son los requisitos y la documentación a presentar para realizar la
 			verificación técnica de vehículos de transporte interjurisdiccional de cargas, transporte de
 			pasajeros y de vehiculos particulares.
 			</p>
           <p><a class="btn btn-success" href="pages/requisitos.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+      
+	  <div class="col-xs-12 col-md-6 center-xs middle-xs">
+          <img class="img-circle" src="img/index/contacto.jpg" width="200" height="200">
+          <h2>Contacto</h2>
+			 <p class="text-justify" style="padding:15px;">En la sección de contacto, complete el 
+			 formulario con sus datos. Ante cualquier duda o 
+			 consulta puede enviarnos un email y le responderemos
+			 a la brevedad.
+			 </p>
+          <p><a class="btn btn-success" href="pages/contacto.php" role="button">Seguir leyendo &raquo;</a></p>
+        </div> <!--/.col-lg-4 -->
+		
+	  </div><!-- /.row -->
 
 
       <!-- START THE FEATURETTES -->

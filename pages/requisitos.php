@@ -82,7 +82,7 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img id="img_galery" class="first-slide" src="http://www.sigalapista.cl/wp-content/uploads/2013/04/revisi%C3%B3n-t%C3%A9cnica-2.jpg" alt="First slide"> 
+          <img id="img_galery" class="first-slide" src="../img/header/requisitos.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Requisitos del Transporte</h1><br />

@@ -14,6 +14,9 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 	
+	<!-- Bootstrap Flexboxgrid CSS -->
+    <link href="../css/flexboxgrid.min.css" rel="stylesheet">
+	
 	<!-- My styles CSS -->
     <link href="../css/styles.css" rel="stylesheet">
 
@@ -82,7 +85,7 @@
 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img id="img_galery" class="first-slide" src="http://www.autofrance.com.ar/wp-content/uploads/2016/01/foto_0000000120150312105508.jpg" alt="First slide"> 
+          <img id="img_galery" class="first-slide" src="../img/header/revision.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
               <h1>Método de Revisión</h1><br />
@@ -97,14 +100,14 @@
 
     </div><!-- /.carousel -->
 		
-		<div class="row featurette" style="margin-top:-40px;">
+		<div class="row featurette center-xs middle-xs" style="margin-top:-40px;">
 			<div class="col-md-12" >
 			  <h2 class="featurette-heading text-center">¿Qué se revisa?</h2>
 			</div>
 		</div>
 		
 	<div class="container marketing" >
-        <div class="row">
+        <div class="row center-xs middle-xs">
 		
 		  <!-- Nav tabs -->
 			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
@@ -117,12 +120,12 @@
 				<li role="presentation"><a href="#cobustion" aria-controls="cobustion" role="tab" data-toggle="tab">Combustion</a></li>
 			  </ul>
 			
-			<div class="col-md-8 col-md-offset-2" id="revision">
+			<div class="col-md-12" id="revision">
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab">
 
 						<div role="tabpanel" class="tab-pane fade in active" id="tdel">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Masas: C: Rotura de rodamiento.</li>
 								<li>Punta de eje: C: Deterioro del eje.</li>
 								<li>Rótulas: C: Rotura, desprendimiento de p/del eje.</li>
@@ -134,58 +137,58 @@
 								<li>Amortiguadores: C: Estado por Inseguridad.</li>
 								<li>Estabilizadores: C: Desgaste de cubiertas.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://mla-s2-p.mlstatic.com/kit-tren-delantero-fiat-dunauno-147-6221-MLA94478733_9416-O.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/tdelantero.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 				
 						<div role="tabpanel" class="tab-pane fade" id="ttras">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Alineación.</li>
 								<li>Bujes: C: Provoca desalineación.</li>
 								<li>Elásticos: C: Flojos o rotos, desprendimiento de eje.</li>
 							</ul>
-							<div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://www.elimax.com.ar/grafico-suspension-trasera.jpg" width="280" height="280" alt="Generic placeholder image">
+							<div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/ttrasero.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 					
 						<div role="tabpanel" class="tab-pane fade" id="chasis">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Alineación.</li>
 								<li>Estructuras del mismo.</li>
 								<li>Herrumbres y fisuras.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://www.tallercalderon.com/wp-content/uploads/2012/09/pintura-chasis.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/chasis.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 				
 						<div role="tabpanel" class="tab-pane fade" id="frenos">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Fuerzas de frenado por eje.</li>
 								<li> Diferencial.</li>
 								<li> Eficienci.</li>a.</li>
 								<li> Ovalización de campanas.</li>
 								<li> Verificación de perdidas en el sistema de frenos.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://www.sobreruedas.org/var/sbr/storage/images/articulos/mecanica_y_tecnologia/frenos_ceramicos/7031-2-esl-ES/frenos_ceramicos.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/frenos.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 					
 						<div role="tabpanel" class="tab-pane fade" id="luces">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Sistema de luces en general.</li>
 								<li>Alineación de faros.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://www.talleresramoshnos.com/wp-content/uploads/2012/06/10_Luces_A_g.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/luces.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 					
 						<div role="tabpanel" class="tab-pane fade" id="carroceria">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 								<li>Choques (salientes).</li>
 								<li>Herrumbres.</li>
 								<li> Fisuras.</li>
@@ -195,13 +198,13 @@
 								<li> Aperturas y cierres de puertas.</li>
 								<li> Etc.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="http://www.tecnocoche.com/wp-content/uploads/2015/01/carroceria_caracteristicas.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/carroceria.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 	
 						<div role="tabpanel" class="tab-pane fade" id="cobustion">
-							<ul class="col-md-6 col-sm-6 col-xs-6">
+							<ul class="col-xs-6 start-xs">
 									<li>Diesel:
 									<li>Exceso de humos negros:.</li>
 									<li>C: Consumo elevado de combustible; disminuye la vida útil del motor.</li>
@@ -212,8 +215,8 @@
 									<li>HC: Combustible sin quemar nocivo.</li>
 									<li>C: Disminución de potencia consumo elevado de combustible.</li>
 							</ul>
-							 <div class="col-md-6 col-sm-6 col-xs-6">
-								<img class="featurette-image img-responsive" src="https://orlandoolguin.files.wordpress.com/2009/04/motor_auto.jpg" width="280" height="280" alt="Generic placeholder image">
+							 <div class="col-xs-6">
+								<img class="featurette-image img-responsive" src="../img/revision/motor.jpg" width="280" height="280" alt="Generic placeholder image">
 							</div>
 						</div>
 				</div>
