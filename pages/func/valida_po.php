@@ -1,6 +1,7 @@
 <?php
 	class formulario{
 		/* Variables del formulario */
+		private $nombre;
 		private $email;
 		private $asunto;
 		private $msj;
@@ -17,6 +18,7 @@
 			
 			public function __construct(){	/* Constructor para envio */
 				
+				$this->nombre = addslashes(htmlspecialchars($_POST["nombre"]));
 				$this->email = addslashes(htmlspecialchars($_POST["email"]));
 				$this->asunto = addslashes(htmlspecialchars($_POST["asunto"])); 
 				$this->msj = addslashes(htmlspecialchars($_POST["msj"]));
@@ -31,6 +33,12 @@
 		
 			public function validaDatos(){	/* Validacion de datos del formulario*/
 				
+				if( $this->nombre == "" ){
+						$this->errores.= "<strong>* Ingrese su nombre por favor.</strong><br />";
+					}else if( strlen($this->nombre) > 20 ){
+						$errores.= "<strong>* Escriba un nombre con menos caracteres.  (20 caracteres maximo - sin espacios)</strong><br />";
+					}
+					
 				if( $this->email == "" ){
 						$this->errores.= "<strong>* Ingrese su email por favor.</strong><br />";
 					}else if( !preg_match($this->sintax,$this->email)){
@@ -40,7 +48,7 @@
 				if( $this->asunto == "" ){
 						$this->errores.= "<strong>* Ingrese su asunto por favor. </strong><br />";
 					}else if( strlen($this->asunto) > 20 ){
-						$errores.= "<strong>* Escriba un asunto con menos caracteres. </strong><br />";
+						$errores.= "<strong>* Escriba un asunto con menos caracteres. (20 caracteres maximo - sin espacios) </strong><br />";
 					}
 							 
 				if( $this->msj == "" ){

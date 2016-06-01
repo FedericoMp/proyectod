@@ -13,8 +13,11 @@
 
     <title>Requisitos</title>
 
-    <!-- Bootstrap core CSS -->
+   <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Bootstrap Flexboxgrid CSS -->
+    <link href="../css/flexboxgrid.min.css" rel="stylesheet">
 	
 	<!-- My styles CSS -->
     <link href="../css/styles.css" rel="stylesheet">
@@ -38,10 +41,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
+    
+		<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom:0;">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -50,21 +51,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="../index.php">
+              <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
-                <li><a href="revision.php">Revision</a></li>
-                <li><a href="normativa.php">Normativa</a></li>
+                <!--<li><a href="revision.php">Revision</a></li>
+                <li><a href="normativa.php">Normativa</a></li>-->
                 <li class="dropdown active">
-                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institución<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="requisitos.php">Transporte de carga</a></li>
-                    <li><a href="requisitos.php">Transporte de pasajeros</a></li>
-                    <li><a href="requisitos.php">Vehiculo particular</a></li>
+                    <li><a href="revision.php">Revision</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="normativa.php">Normativa</a></li>
+					<li role="separator" class="divider"></li>
+                    <li class="active"><a href="requisitos.php">Requisitos</a></li>
                   </ul>
                 </li>
 				 <li><a href="contacto.php">Contacto</a></li>
@@ -72,9 +75,6 @@
             </div>
           </div>
         </nav>
-
-      </div>
-    </div>
 
 
     <!-- Carousel
@@ -99,8 +99,8 @@
 
     </div><!-- /.carousel -->
 		
-		<div class="row featurette" style="margin-top:-40px;">
-			<div class="col-md-12" >
+		<div class="row featurette middle-xs center-xs" style="margin-top:-40px;">
+			<div class="col-xs-12">
 			  <h2 class="featurette-heading text-center">Requisitos y Documentación</h2>
 			</div>
 		</div>
@@ -109,19 +109,20 @@
         <div class="row">
 		
 		  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs centered col-md-12  col-sm-12" role="tablist" id="myTab" style="border:none;">
+			  <ul class="nav nav-tabs centered col-xs-12  middle-xs center-xs" role="tablist" id="myTab" style="border:none;">
 				<li role="presentation" class="active"><a href="#tcar" aria-controls="tcar" role="tab" data-toggle="tab">Transporte de carga</a></li>
 				<li role="presentation"><a href="#tpasaj" aria-controls="tpasaj" role="tab" data-toggle="tab">Transporte de pasajeros</a></li>
 				<li role="presentation"><a href="#tpart" aria-controls="tpart" role="tab" data-toggle="tab">Transporte particular</a></li>
 			  </ul>
-			  <!-- Tab panes -->
-			 <div class="col-md-8 col-md-offset-2 bg-info" id="requisitos">
+			 
+			  
+			<div class="col-xs-12 middle-xs center-xs" id="requisitos">
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab">
 
 						<div role="tabpanel" class="tab-pane fade in active" id="tcar">
 							<section id="info">
-							<div class="row">
+							<div class="row start-xs">
 							<div class="twelve columns align-left">
 							<p>
 							<b>
@@ -207,7 +208,7 @@
 				
 						<div role="tabpanel" class="tab-pane fade" id="tpasaj">
 							<section id="info">
-							<div class="row">
+							<div class="row start-xs">
 							<div class="twelve columns align-left">
 							<p>
 							<b>
@@ -276,7 +277,7 @@
 					
 						<div role="tabpanel" class="tab-pane fade" id="tpart">
 							<section id="info">
-						<div class="row">
+						<div class="row start-xs">
 						<div class="twelve columns align-left">
 						<p>
 						<b>

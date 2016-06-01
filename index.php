@@ -13,13 +13,13 @@
 
     <title>Home</title>
 
-    <!-- Bootstrap core CSS -->
+   <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	
-	 <!-- Bootstrap Flexboxgrid CSS -->
+	<!-- Bootstrap Flexboxgrid CSS -->
     <link href="css/flexboxgrid.min.css" rel="stylesheet">
 	
-	<!-- My CSS -->
+	<!-- My styles CSS -->
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -41,10 +41,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
+		
+        <nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom:0;">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -59,15 +57,17 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="../index.php">Inicio</a></li>
-                <li><a href="pages/revision.php">Revision</a></li>
-                <li><a href="pages/normativa.php">Normativa</a></li>
+                <li class="active"><a href="index.php">Inicio</a></li>
+                <!--<li><a href="pages/revision.php">Revision</a></li>
+                <li><a href="pages/normativa.php">Normativa</a></li>-->
                 <li class="dropdown">
-                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institución<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="pages/revision.php">Transporte de carga</a></li>
-                    <li><a href="pages/revision.php">Transporte de pasajeros</a></li>
-                    <li><a href="pages/revision.php">Vehiculo particular</a></li>
+                    <li><a href="pages/revision.php">Revision</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="pages/normativa.php">Normativa</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="pages/requisitos.php">Requisitos</a></li>
                   </ul>
                 </li>
 				 <li><a href="pages/contacto.php">Contacto</a></li>
@@ -75,10 +75,6 @@
             </div>
           </div>
         </nav>
-
-      </div>
-    </div>
-
 
     <!-- Carousel
     ================================================== -->
@@ -145,43 +141,44 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-xs-12 col-md-6 center-xs middle-xs">
-          <img class="img-circle" src="img/index/revision.png" alt="Generic placeholder image" width="200" height="200">
+      <div class="row  center-xs middle-xs">
+	  
+        <div class="col-md-6">
+          <img class="img-circle" src="img/index/revision.png" alt="Generic placeholder image" width="180" height="180">
           <h2>Revision</h2>
-			<p class="text-justify" style="padding:15px;">Le mostramos los aspectos técnicos tenidos en 
-			cuenta al momento de revisar su unidad. El pasar por todas estas 
-			inspecciones, le indicará que su vehículo se encuentra en óptimas condiciones de circulación
+			<p class="text-justify" style="padding:10px;">Mostramos los aspectos técnicos tenidos en 
+			cuenta al momento de revisar su unidad. Pasar por todas estas 
+			inspecciones, le indicará que su vehículo se encuentra en óptimas condiciones de circulación.
 			</p>
           <p><a class="btn btn-success" href="pages/revision.php" role="button">Seguir leyendo &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
        
-	   <div class="col-xs-12 col-md-6 center-xs middle-xs">
-          <img class="img-circle" src="img/index/normativa.jpg" width="200" height="200">
+	   <div class="col-md-6">
+          <img class="img-circle" src="img/index/reqisito.jpg" width="180" height="180">
+          <h2>Requisitos</h2>
+			<p class="text-justify" style="padding:10px;">Estos son los requisitos y la documentación a presentar para realizar la
+			verificación técnica de vehículos de transporte interjurisdiccional de cargas, transporte de
+			pasajeros y de vehiculos particulares.
+			</p>
+          <p><a class="btn btn-success" href="pages/requisitos.php" role="button">Seguir leyendo &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+	   
+	   <div class="col-md-6">
+          <img class="img-circle" src="img/index/normativa.jpg" width="180" height="180">
           <h2>Normativa</h2>
-			 <p class="text-justify" style="padding:15px;">Normativas que regulan la Revisión técnica.
+			 <p class="text-justify" style="padding:10px;">Normativas que regulan la Revisión técnica.
 			 En cada uno de los botones encontrará las leyes 
 			 que regulan cada uno de los diferentes tipos de vehículos 
 			 para su circulación y uso comercial.
 			 </p>
           <p><a class="btn btn-success" href="pages/normativa.php" role="button">Seguir leyendo &raquo;</a></p>
         </div> 
-		       
-	   <div class="col-xs-12 col-md-6 center-xs middle-xs">
-          <img class="img-circle" src="img/index/requisitos.jpg" width="200" height="200">
-          <h2>Requisitos</h2>
-			<p class="text-justify" style="padding:15px;">Estos son los requisitos y la documentación a presentar para realizar la
-			verificación técnica de vehículos de transporte interjurisdiccional de cargas, transporte de
-			pasajeros y de vehiculos particulares.
-			</p>
-          <p><a class="btn btn-success" href="pages/requisitos.php" role="button">Seguir leyendo &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      
-	  <div class="col-xs-12 col-md-6 center-xs middle-xs">
-          <img class="img-circle" src="img/index/contacto.jpg" width="200" height="200">
+		            
+	  <div class="col-md-6">
+          <img class="img-circle" src="img/index/contacto.jpg" width="180" height="180">
           <h2>Contacto</h2>
-			 <p class="text-justify" style="padding:15px;">En la sección de contacto, complete el 
-			 formulario con sus datos. Ante cualquier duda o 
+			 <p class="text-justify" style="padding:10px;">En la sección de contacto, complete el 
+			 formulario con sus datos: nombre, asunto y su email. Ante cualquier duda o 
 			 consulta puede enviarnos un email y le responderemos
 			 a la brevedad.
 			 </p>

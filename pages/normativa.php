@@ -13,8 +13,11 @@
 
     <title>Normativa</title>
 
-    <!-- Bootstrap core CSS -->
+      <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Bootstrap Flexboxgrid CSS -->
+    <link href="../css/flexboxgrid.min.css" rel="stylesheet">
 	
 	<!-- My styles CSS -->
     <link href="../css/styles.css" rel="stylesheet">
@@ -38,10 +41,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
+    
+	<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom:0;">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -50,21 +51,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="../index.php">
+              <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
-                <li><a href="revision.php">Revision</a></li>
-               <li class="active"><a href="normativa.php">Normativa</a></li>
-                <li class="dropdown">
-                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                <!--<li><a href="revision.php">Revision</a></li>
+                <li><a href="normativa.php">Normativa</a></li>-->
+                <li class="dropdown active">
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institución<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="requisitos.php">Transporte de carga</a></li>
-                    <li><a href="requisitos.phpphp">Transporte de pasajeros</a></li>
-                    <li><a href="requisitos.php">Vehiculo particular</a></li>
+                    <li><a href="revision.php">Revision</a></li>
+					<li role="separator" class="divider"></li>
+                    <li  class="active"><a href="normativa.php">Normativa</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="requisitos.php">Requisitos</a></li>
                   </ul>
                 </li>
 				 <li><a href="contacto.php">Contacto</a></li>
@@ -72,9 +75,6 @@
             </div>
           </div>
         </nav>
-
-      </div>
-    </div>
 
 
     <!-- Carousel
@@ -98,8 +98,8 @@
 
     </div><!-- /.carousel -->
 		
-		<div class="row featurette" style="margin-top:-40px;">
-			<div class="col-md-12" >
+		<div class="row featurette middle-xs center-xs" style="margin-top:-40px;">
+			<div class="col-xs-12">
 			  <h2 class="featurette-heading text-center">¿Que tipo de vehículo va a revisar?</h2>
 			</div>
 		</div>
@@ -114,7 +114,7 @@
 				<li role="presentation"><a href="#frenos" aria-controls="frenos" role="tab" data-toggle="tab">Normativa Particular</a></li>
 			  </ul>
 			
-			<div class="col-md-8 col-md-offset-2" id="normativa">
+			<div class="col-xs-12 middle-xs center-xs" id="normativa">
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab col-md-12">
 

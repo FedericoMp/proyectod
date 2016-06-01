@@ -16,6 +16,9 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 	
+	<!-- Bootstrap Flexboxgrid CSS -->
+    <link href="../css/flexboxgrid.min.css" rel="stylesheet">
+	
 	<!-- My styles CSS -->
     <link href="../css/styles.css" rel="stylesheet">
 
@@ -38,10 +41,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
+    
+	<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom:0;">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -50,21 +51,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                <a class="navbar-brand" href="../index.php">
+              <a class="navbar-brand" href="../index.php">
 				<img src="../img/logo.png"  style="margin-top:-12px;" alt="logo" />
 			  </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="../index.php">Inicio</a></li>
-                <li><a href="revision.php">Revision</a></li>
-               <li><a href="normativa.php">Normativa</a></li>
+                <!--<li><a href="revision.php">Revision</a></li>
+                <li><a href="normativa.php">Normativa</a></li>-->
                 <li class="dropdown">
-                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Requisitos <span class="caret"></span></a>
+                  <a href="requisitos.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institución<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="requisitos.php">Transporte de carga</a></li>
-                    <li><a href="requisitos.phpphp">Transporte de pasajeros</a></li>
-                    <li><a href="requisitos.php">Vehiculo particular</a></li>
+                    <li><a href="revision.php">Revision</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="normativa.php">Normativa</a></li>
+					<li role="separator" class="divider"></li>
+                    <li><a href="requisitos.php">Requisitos</a></li>
                   </ul>
                 </li>
 				 <li class="active"><a href="contacto.php">Contacto</a></li>
@@ -73,25 +76,27 @@
           </div>
         </nav>
 
-      </div>
-    </div>
-
 
     <!-- Carousel
     ================================================== -->
 
 		
-		<div class="row featurette" >
-			<div class="col-md-12" >
+		<div class="row featurette  middle-xs center-xs">
+			<div class="col-xs-12">
 			  <h2 class="featurette-heading text-center">Contacto</h2>
 			</div>
 		</div>
 		
 	<div class="container marketing" >
 			<div class="row">
-					<div class="col-md-12" >
+					<div class="col-xs-12" >
 						<form role="form" id="formu" name="formu" method="post">
-										  
+								
+							  <div class="form-group">
+								   <label for="nombre">Nombre:</label>
+										<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+							  </div>
+								
 							  <div class="form-group">
 								   <label for="email">Email:</label>
 										<input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email">
@@ -115,21 +120,35 @@
 					</div>						
 			
 			
-			 <h2 class="featurette-heading text-center" style="margin-bottom: 50px;">Ubicación</h2>
+					<h2 class="col-xs-12  middle-xs center-xs featurette-heading text-center" style="margin-bottom: 50px;">Ubicación</h2>
 			<!-- Mapa de google maps -->
-					<div class="col-md-3 col-sm-5" style="height:320px;background-color:#CC2719;color:white;padding:20px 0 20px 20px;">
-						<p><span class="glyphicon glyphicon-map-marker"></span> Ubicación: </p>
+					<div class="row middle-xs center-xs">
+						<div class="col-xs-6"  id="direcciontips">
+							<p><span class="glyphicon glyphicon-map-marker"></span> Ubicación: </p>
 							<p>Gregorio Pomar 3850 (esq. Av. Saenz)</p>
-							<p style="padding-left:20px;">Localidad Nueva Pompeya</p>
-						<p><span class="glyphicon glyphicon-earphone"></span> Teléfono:</p>
-							<p style="padding-left:20px;"> 011 4912-0138</p>
-						<p><span class="glyphicon glyphicon-time"></span>  Horarios:</p>
-							<p style="padding-left:20px;">Lunes a Viernes de 8:00 a 18:00 hs.</p>
-							<p style="padding-left:20px;"> Sábados de 8:00 a 12:00 hs.</p>
-						<p><span class="glyphicon glyphicon-envelope"></span>  E-mail:</p>
-							<p style="padding-left:20px;">i.t.p@hotmail.com</p>
+							<p>Localidad Nueva Pompeya</p>
+						</div>
+						
+						<div class="col-xs-6"  id="direcciontips">
+							<p><span class="glyphicon glyphicon-time"></span>  Horarios:</p>
+							<p>Lunes a Viernes de 8:00 a 18:00 hs.</p>
+							<p> Sábados de 8:00 a 12:00 hs.</p>
+						</div>
+						
+						<div class="col-xs-12" id="googleMap" style="height:348px;"></div>
+						
+						<div class="col-xs-6"  id="direcciontips">
+							<p><span class="glyphicon glyphicon-earphone"></span> Teléfono:</p>
+							<p> 011 4912-0138</p>
+						</div>
+						
+						<div class="col-xs-6"  id="direcciontips">
+							<p><span class="glyphicon glyphicon-envelope"></span>  E-mail:</p>
+							<p>i.t.p@hotmail.com</p>
+						</div>
+												
 					</div>
-					<div class="col-md-9" id="googleMap" style="height:320px;"></div>
+					
 					
 			</div>
 			
