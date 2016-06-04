@@ -87,6 +87,7 @@
           <img id="img_galery" class="first-slide" src="../img/header/normativa.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
+			<img class="first-slide" src="../img/brand.PNG" alt="Revisiones Tecnicas Pompeya S.R.L.">
               <h1>Normativas que regulan la Revisión técnica</h1><br />
 				<p>
 					En cada uno de los botones encontrará las leyes que regulan cada uno de los diferentes tipos de vehículos para su circulación y uso comercial.
@@ -105,63 +106,57 @@
 		</div>
 		
 	<div class="container marketing" >
-	     <div class="row">
-		  <!-- Nav tabs -->
-			  <ul class="nav nav-tabs centered" role="tablist" id="myTab" style="border:none;">
-				<li role="presentation" class="active"><a href="#tdel" aria-controls="tdel" role="tab" data-toggle="tab">Normativa General</a></li>
-				<li role="presentation"><a href="#ttras" aria-controls="ttras" role="tab" data-toggle="tab">Normativa Cargas</a></li>
-				<li role="presentation"><a href="#chasis" aria-controls="chasis" role="tab" data-toggle="tab">Normativa Pasajeros</a></li>
-				<li role="presentation"><a href="#frenos" aria-controls="frenos" role="tab" data-toggle="tab">Normativa Particular</a></li>
-			  </ul>
-			
-			<div class="col-xs-12 middle-xs center-xs" id="normativa">
-			  <!-- Tab panes -->
-			  <div class="tab-content centered my-tab col-md-12">
-
-						<div role="tabpanel" class="tab-pane fade in active" id="tdel">
-							<a href="https://www.dropbox.com/s/kud3a8q5ang9f2r/decreto779.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Decreto 779/95</button>
-							</a>
-							<a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion25.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Disposición 25</button>
-							</a>
-						</div>
-				
-						<div role="tabpanel" class="tab-pane fade" id="ttras">
-							<a href="https://www.dropbox.com/s/22z4vv1uyc6p013/decreto306.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Decreto 306</button>
-							</a>
-							<a href="https://www.dropbox.com/s/jwwwjb7zi0jaxq2/disposicion4.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Disposición 4</button>
-							</a>
-							<a href="https://www.dropbox.com/s/0oo5cicbx9dqvex/disposicion293.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Disposición 293</button>
-							</a>
-							<a href="https://www.dropbox.com/s/36ne1y7jzyrp6vg/disposicion11.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Disposición 11</button>
-							</a>
-						</div>
-					
-						<div role="tabpanel" class="tab-pane fade" id="chasis">
-							<a href="https://www.dropbox.com/s/ham8nz9hil9qw12/resolucion894.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Resolución 894</button>
-							</a>
-							<a href="https://www.dropbox.com/s/a9hqzed7xu5pyp6/resolucion977.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Resolución 977</button>
-							</a>
-						</div>
-				
-						<div role="tabpanel" class="tab-pane fade" id="frenos">
-							<a href="https://www.dropbox.com/s/na789pszqbvfoiv/decreto1716.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Decreto 1716</button>
-							</a>
-							<a href="https://www.dropbox.com/s/6ovzt6xb8c0q6o9/ley26363.pdf?dl=0" target="_blank">
-								<button type="button" class="btn btn-default" id="btn">Ley 26.326</button>
-							</a>
-						</div>
-					
+	     <div class="row middle-xs center-xs">
+		 
+		   <div class="col-xs-12">
+	  <div class="panel panel-primary">
+		  <div class="panel-heading">Normativa General</div>
+				<div class="panel-body">
+					<ul class="nav nav-pills centered middle-xs">
+					  <li role="presentation"><a href="https://www.dropbox.com/s/kud3a8q5ang9f2r/decreto779.pdf?dl=0" target="_blank">Decreto 779/95</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion25.pdf?dl=0" target="_blank">Disposición 25</a></li>
+					</ul>
 				</div>
-			</div>
+	  </div>
+  </div>
+  
+   <div class="col-xs-12">
+	  <div class="panel panel-primary">
+		  <div class="panel-heading">Normativa Cargas</div>
+				<div class="panel-body">
+					<ul class="nav nav-pills centered middle-xs">
+					  <li role="presentation"><a href="https://www.dropbox.com/s/kud3a8q5ang9f2r/decreto306.pdf?dl=0" target="_blank">Decreto 306</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion4.pdf?dl=0" target="_blank">Disposición 4</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion293.pdf?dl=0" target="_blank">Disposición 293</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/h0x0h98v58ziki0/disposicion11.pdf?dl=0" target="_blank">Disposición 11</a></li>
+					</ul>
+				</div>
+	  </div>
+  </div>
+  
+   <div class="col-xs-12">
+	  <div class="panel panel-primary">
+		  <div class="panel-heading">Normativa Pasajeros</div>
+				<div class="panel-body">
+					<ul class="nav nav-pills centered middle-xs">
+					  <li role="presentation"><a href="https://www.dropbox.com/s/ham8nz9hil9qw12/resolucion894.pdf?dl=0" target="_blank">Resolución 894</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/a9hqzed7xu5pyp6/resolucion977.pdf?dl=0" target="_blank">Resolución 977</a></li>
+					</ul>
+				</div>
+	  </div>
+  </div>
+  
+   <div class="col-xs-12">
+	  <div class="panel panel-primary">
+		  <div class="panel-heading">Normativa Particular</div>
+				<div class="panel-body">
+					<ul class="nav nav-pills centered middle-xs">
+					  <li role="presentation"><a href="https://www.dropbox.com/s/na789pszqbvfoiv/decreto1716.pdf?dl=0" target="_blank">Decreto 1716</a></li>
+					  <li role="presentation"><a href="https://www.dropbox.com/s/6ovzt6xb8c0q6o9/ley26363.pdf?dl=0" target="_blank">Ley 26.326</a></li>
+					</ul>
+				</div>
+	  </div>
+  </div>
 		</div>
 			
 			 <hr class="featurette-divider">

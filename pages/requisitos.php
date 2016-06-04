@@ -87,6 +87,7 @@
           <img id="img_galery" class="first-slide" src="../img/header/requisitos.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
+			<img class="first-slide" src="../img/brand.PNG" alt="Revisiones Tecnicas Pompeya S.R.L.">
               <h1>Requisitos del Transporte</h1><br />
 				<p>
 					Estos son los requisitos y la documentación a presentar para realizar la verificación técnica 

@@ -42,7 +42,7 @@
 ================================================== -->
   <body>
     
-	<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom:0;">
+	<nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -81,8 +81,9 @@
     ================================================== -->
 
 		
-		<div class="row featurette  middle-xs center-xs">
+		<div class="row featurette  middle-xs center-xs" >
 			<div class="col-xs-12">
+			<img class="first-slide" src="../img/brandc.PNG" alt="Revisiones Tecnicas Pompeya S.R.L.">
 			  <h2 class="featurette-heading text-center">Contacto</h2>
 			</div>
 		</div>

@@ -86,6 +86,7 @@
           <img id="img_galery" class="first-slide" src="../img/header/revision.jpg" alt="First slide"> 
           <div class="container">
             <div id="txt_galery" class="carousel-caption text-justify">
+			<img class="first-slide" src="../img/brand.PNG" alt="Revisiones Tecnicas Pompeya S.R.L.">
               <h1>Método de Revisión</h1><br />
 				<p>
 					Le mostramos todos los aspectos técnicos que son tenidos en cuenta al momento de revisar su unidad. El pasar por todas estas inspecciones, 
@@ -122,7 +123,7 @@
 			  <!-- Tab panes -->
 			  <div class="tab-content centered my-tab middle-xs center-xs">
 
-						<div role="tabpanel" class="tab-pane fade in active" id="tdel">
+						<div role="tabpanel" class="tab-pane fade in active centered" id="tdel">
 							<ul class="col-md-12 col-lg-6 start-xs">
 								<li>Masas: C: Rotura de rodamiento.</li>
 								<li>Punta de eje: C: Deterioro del eje.</li>
